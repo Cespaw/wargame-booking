@@ -22,13 +22,32 @@
 }
 
 .WeekDay {
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.TimeSlots {
+  display: flex;
+  flex-direction: column;
+}
+
+.TimeSlots div {
+  border-bottom: 1px solid #ccc;
 }
 
 .BookingForm {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+.WeekInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-header {
